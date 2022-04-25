@@ -12,7 +12,7 @@ Tech Stack:
 
 Marketplaces is very easy to setup for local use or to be deployed on your own infrastructure. 
 
-0. Create a Marketplace at https://holaplex.dev/marketplaces/new
+0. Create a Marketplace at https://holaplex.dev/marketplace/new
 1. Clone the repo
 2. `cd` into the folder
 3. Install dependencies with `yarn install`
@@ -40,7 +40,7 @@ $ docker run --network=host -v $(pwd)/templates:/etc/nginx/templates \
 
 If you already have something running in port `80` already, feel free to change that to a different port. Keep in mind that you'll need to append `:<port>` on the url to access the NGINX server.
 
-## Test your setup!
+## Test your proxy setup!
 
 Open a test marketplace, like [espi's marketplace](http://espi.dev.holaplex.market.127.0.0.1.nip.io).
 Page should load without issues.
